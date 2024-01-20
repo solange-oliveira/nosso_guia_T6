@@ -3,83 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="para.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Nosso guia</title>
 </head>
 <body>
+    <header>
+        <a href="index.html">
+            <img src="imagens/logo-png-transparente-branca.png" alt="logo do projeto">
+        </a>
 
-    <!-- aqui começa o seu  navbar-->
-    <nav>
-        <img src="#" alt=""> <!--imagem carrossel-->
-        <img src="#" alt=""> <!--instagram-->
-        <img src="#" alt=""> <!--facebook-->
-        <img src="#" alt=""> <!--outro exemplo-->
 
-        <ul>
-            <li>HONE</li>
-            <li>UBATUBA</li>
-            <li>BELO HORIZONTE</li>
-            <li>BELÉM</li>
-            <li>SOBRE NÓS</li>
-        </ul>
-    </nav>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#Ubatuba">Ubatuba</a>
+            <a href="#Belo Horizonte">Belo Horizonte</a>
+            <a href="#belem">Belém</a>
+        </nav>
+    </header>
 
     <main>
-        <div> <!--esta div esta separada para ser o carrossel -->
-            <img src="#" alt="">
-            <h1>Lorem ipsum</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestias minus perspiciatis eveniet molestiae praesentium debitis quam voluptates voluptatum architecto illum quasi, hic modi sequi saepe, doloribus perferendis optio veritatis.</p>
-            <button>CALL TO ACTION</button>
-        </div>
+        <section id="home" >
+            <img src="imagens/imagem-belém-panoramica.jpg" alt="imagem panoramica"  width="500px"  height="500px" >
 
-        <div> <!--Aqui pode ser uma breve breve descrição sobre a empresa -->
-            <img src="#" alt="">
-            <h1>Quem somos</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus animi, laboriosam, earum aliquid reiciendis perferendis non temporibus minus, eos magni id harum quae amet voluptates nesciunt modi incidunt accusamus hic.</p>
-            <button>Action</button>
-        </div>
+            <div>
+                <h1>Descobrindo Belém: Um Passeio por Curiosidades </h1>
+                <p class="paragrafo" >Belém, a encantadora capital do Pará, é uma cidade rica em história e cultura, com uma série de curiosidades que encantam visitantes de todo o mundo.
 
-        <div> <!-- essa sessão deve ter breves descrições sobre nossos principais destinos da nossa empresa -->
-            <section>
-                <img src="#" alt="">
-                <h2>Belém</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus corporis, ipsum veniam officiis culpa quis dolorum? Dolore repudiandae rerum culpa, doloribus, autem tempora accusamus expedita maiores rem, dolores magnam!</p>
-            </section>
-
-            <section>
-                <img src="#" alt="">
-                <h2>Belo Horizonte</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti maiores hic labore eos, quibusdam qui quaerat repellendus dolor, perferendis corporis delectus aspernatur maxime minima mollitia earum accusamus alias aut.</p>
-            </section>
-
-            <section>
-                <img src="#" alt="">
-                <h2>Ubatuba</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque repellendus inventore obcaecati commodi eaque! Voluptas aliquid ipsa quae consectetur necessitatibus. Voluptatibus cum corporis quaerat quia facilis aliquam aperiam dolores quod.</p>
-            </section>
-        </div>
+                    Círio de Nazaré: Belém é palco de uma das maiores festividades religiosas do Brasil, o Círio de Nazaré. Milhares de fiéis se reúnem para homenagear Nossa Senhora de Nazaré em uma impressionante procissão.
+                    
+                    Mercado Ver-o-Peso: Um dos maiores mercados a céu aberto da América Latina, o Mercado Ver-o-Peso é um verdadeiro espetáculo de cores e sabores. Além de alimentos frescos, é possível encontrar artesanato local e ervas medicinais.
+                    
+                    Mangal das Garças: Este parque ecológico é uma joia verde no coração da cidade. Entre as atrações, destaca-se o Borboletário, proporcionando uma experiência única de contato com diversas espécies de borboletas.
+                    
+                    Ilha do Combu: Conhecida como a "Ilha dos Cheiros", a Ilha do Combu é um refúgio natural próximo a Belém. É possível fazer passeios de barco pelos igarapés e degustar a culinária típica em meio à exuberante vegetação.
+                    
+                    Culinária Paraense: Belém é um paraíso gastronômico, com pratos típicos como o tacacá, o açaí e o pato no tucupi. A diversidade de sabores reflete a influência indígena, africana e portuguesa na culinária local.
+                    
+                    Belém, com suas tradições únicas e paisagens fascinantes, é uma cidade que convida a descobertas inesquecíveis, proporcionando aos visitantes uma experiência enriquecedora e cheia de encantos. </p>
+                <a class="botao" href="#" target="_blank" >Descubra mais</a>
+                <a class="botao-transparente" href="#clinica">Sobre a capital</a>
+            </div>
+            <!-- <img class="absolute" src="imagens/shape.svg" alt="imagem decorativa laranja "> -->
+        </section>
 
 
-        <div> <!--A ser debatido sobre -->
-            <h2> "Diga algo mais às pessoas"</h2>
-            <p>Utilize este espaço para elaborar sobre o seu título e conectar-se com os seus visitantes. Inclua informações que façam mais sentido para a sua marca. Experimente compartilhar a missão da sua empresa para construir confiança. Ou, explique brevemente como o seu produto funciona e o valor que ele proporciona, para que eles sintam a vontade de experimentá-lo.</p>
+        <section id="hotel" >
+            <div>
+                <h2>Opções de Hospedagem em Belém: Onde Conforto e Cultura Se Encontram</h2> 
+                <p class="paragrafo">Belém, com sua rica história e diversidade cultural, oferece uma variedade de opções de hospedagem que atendem a diferentes gostos e orçamentos. Seja em busca de luxo à beira da baía ou charme histórico no coração da cidade, Belém tem algo para todos.</p>
+                <ul>
+                    <li>Hotéis à Beira da Baía: Para aqueles que procuram luxo e vistas espetaculares, os hotéis à beira da Baía de Guajará são uma escolha primorosa. Com instalações modernas, piscinas relaxantes e restaurantes gourmet, esses hotéis proporcionam uma experiência de hospedagem inesquecível. </li>
+                    <li>Casas Históricas Restauradas: Belém possui charmosas pousadas e hotéis localizados em casarões históricos cuidadosamente restaurados. Essas opções de hospedagem oferecem uma atmosfera única, combinando conforto moderno com a rica arquitetura e história da cidade.</li>
+                    <li>Hospedagem em Bairros Tradicionais: Os bairros de Belém têm suas próprias personalidades distintas. Encontrar uma pousada ou hotel em bairros como Nazaré ou Batista Campos coloca os visitantes no centro da vida local, com fácil acesso a mercados, restaurantes e atrações culturais.</li>
+                    <li>Eco Resorts Próximos à Natureza: Aqueles que buscam uma experiência mais próxima da natureza podem escolher hospedar-se em eco resorts nos arredores de Belém. Estas opções oferecem tranquilidade e a oportunidade de explorar a rica biodiversidade amazônica.</li>
+                    <li>Hostels e Guesthouses: Para viajantes mais econômicos ou aqueles que buscam uma atmosfera mais descontraída, Belém conta com hostels e guesthouses acolhedores. Essas opções oferecem uma maneira amigável e acessível de mergulhar na cultura local, muitas vezes com dicas valiosas de moradores locais.</li>
+                    <!-- <li>Atendimento de emergência 24 horas</li>
+                    <li>Nutriçaõ e aconselhamento alimentar personalizado</li> -->
+                    <p>Independentemente da escolha, hospedar-se em Belém é mais do que encontrar um lugar para descansar – é mergulhar na cultura paraense e na hospitalidade calorosa que tornam a cidade única. Com uma variedade de opções à disposição, cada visitante pode encontrar o refúgio perfeito para tornar sua estadia em Belém verdadeiramente especial.</p>
+                </ul>
+            </div>
+            
 
-            <button>call to action</button>
-        </div>
+            <img src="imagens/moça-cuidando-da-cama.webp" alt="moça cuidando de uma cama" width="400px" height="400px" loading="lazy">
+        </section>
+
+
+        <section id="turismo" >
+            <h2>Descubra Belém: Uma Jornada Turística pela Pérola do Norte</h2>    
+            <img src="imagens/imagem-ilustrativa.jpg" alt="" width="645px" height="430" loading="lazy" >
+            <p class="paragrafo" >Belém, capital do Pará, é uma cidade rica em experiências turísticas que encantam os visitantes com sua combinação única de cultura, história e natureza exuberante. Ao explorar esta "Pérola do Norte", os turistas têm a oportunidade de mergulhar em uma tapeçaria de tradições fascinantes.
+
+                Cultura e História no Centro Histórico: O coração de Belém é o centro histórico, onde casarões coloniais e igrejas centenárias contam a história da cidade. A Catedral da Sé e o Forte do Castelo são imperdíveis, oferecendo uma visão do passado e uma vista deslumbrante da Baía do Guajará.
+                
+                Mercado Ver-o-Peso: Um verdadeiro espetáculo sensorial, o Mercado Ver-o-Peso é um ponto obrigatório para os amantes da culinária local e artesanato. Aqui, aromas exóticos, cores vibrantes e sabores autênticos se misturam, proporcionando uma experiência única.
+                
+                Passeio pela Estação das Docas: Às margens da baía, a Estação das Docas é um complexo revitalizado que combina gastronomia, cultura e lazer. Restaurantes, bares e lojas oferecem aos visitantes um ambiente descontraído com vista para o rio.
+                
+                Passeio de Barco pelos Igarapés: A riqueza natural da Amazônia é palpável em Belém. Um passeio de barco pelos igarapés revela a biodiversidade única da região, com aves exóticas, plantas aquáticas e uma conexão direta com a imensidão da Floresta Amazônica.
+                
+                Gastronomia Paraense: Os sabores da cozinha paraense são uma atração à parte. Pratos como o açaí, o tacacá e o pato no tucupi proporcionam uma verdadeira festa para o paladar. Experimentar a culinária local em restaurantes tradicionais é uma parte essencial da visita.
+                
+                Mangal das Garças e Parque Zoobotânico: Este parque ecológico é uma joia verde no centro da cidade, oferecendo um refúgio tranquilo e a oportunidade de admirar a flora e fauna locais. O borboletário e o viveiro de aves são destaques imperdíveis.
+                
+                Belém, com sua autenticidade cultural e beleza natural, convida os turistas a explorar uma cidade que respira história, celebra tradições e oferece uma viagem única pela riqueza da Amazônia. Cada recanto desta metrópole amazônica revela uma história fascinante, tornando Belém um destino inesquecível para os amantes da aventura e da cultura.</p>
+        </section>
+
+
+        <section  id="duvidas" >
+            <img src="imagens/General-South-America-Brazil-Belem-Cathedral.jpg" alt="igreja" width="540px" height="480"  loading="lazy" >
+            
+            <div>
+                <h2>Ficou alguma Dúvida</h2>
+
+                <div class="duvida" >
+                    <h3>Quais serviços são oferecidos pelo Nosso Guia  ?</h3>
+                    <img src="imagens/icons8-seta-para-baixo-32 (1).png" alt="seta para baixo">
+                    <p class="paragrafo" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquid debitis esse? Nisi placeat expedita ut repellat architecto ea quo aut, excepturi harum voluptates veniam, rem quam quasi? Deleniti, rerum. </p>
+                </div>
+
+
+                <div class="duvida" >
+                    <h3>Quais serviços são oferecidos pelo Nosso Guia ?</h3>
+                    <img src="imagens/icons8-seta-para-baixo-32 (1).png" alt="seta para baixo">
+                    <p class="paragrafo" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex blanditiis rerum, ipsa odio deleniti asperiores veritatis rem fuga, eos quasi sint incidunt aliquam eveniet ducimus impedit doloribus! Explicabo, ut? </p>
+                </div>
+
+
+                <div class="duvida" >
+                    <h3>Quais serviços são oferecidos pelo Nosso Guia ?</h3>
+                    <img src="imagens/icons8-seta-para-baixo-32 (1).png" alt="seta para baixo">
+                    <p class="paragrafo" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus adipisci mollitia velit tempore aliquid culpa, veritatis iste fugit vel esse distinctio possimus labore at! Laudantium voluptates sunt repellat nihil amet!</p>
+                </div>
+
+
+                <div class="duvida" >
+                    <h3>Quais serviços são oferecidos pela clínica Petlife ?</h3>
+                    <img src="imagens/icons8-seta-para-baixo-32 (1).png" alt="seta para baixo">
+                    <p class="paragrafo" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi velit libero odit at rerum? Eaque fuga quis est enim maxime at, nostrum sint repudiandae, quo neque explicabo. Dignissimos, autem! </p>
+                </div>
+
+            </div>
+        </section>
     </main>
 
-    <footer> <!--E a parte final do site roda pé -->
-        <img src="#" alt="">
-        <img src="#" alt="">
-        <img src="#" alt="">
-        <img src="#" alt="">
+    <footer>
+        <div>
+            <img src="imagens/logo-png-transparente-branca.png" alt="" width="100px" >
+            <p class="paragrafo" >cuidando com amor, vivendo com alegria: Nosso Guia, onde a vida e mais feliz!</p>
+        </div>
 
-        <ul> <!--A ser debatido sobre -->
-            <li>Home</li>
-            <li>About us</li>
-            <li>Offier</li>
-            <li>Contact</li>
-        </ul>
+        <div>
+            <strong class="titulo" >Links Rapidos</strong>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#clinica">Clínica</a>
+                <a href="#farmacia">Framácia</a>
+                <a href="#duvidas">Dúvidas</a>
+            </nav>
+        </div>
+
+        <div>
+            <strong  class="titulo" >Encontre-nos</strong>
+            <p class="cor" >Whatsapp: <a href="(91) 981999239"  target="_blank" >(91) 981999239 </a></p>
+            <p  class="cor" >Email: <a href="wevertonmontalvao25@gmail.com" target="_blank">wevertonmontalvao25@gmail.com</a></p>
+            <p  class="cor" >endereço</p>   
+        </div>
     </footer>
+
+    <div id="copyright" >
+        desenvolvido por Weverton. <a href="(91) 981999201"  target="_blank" >(91) 981999201 </a></p>
+    </div>
+
+    <script src="index.js"></script>
     
 </body>
 </html>

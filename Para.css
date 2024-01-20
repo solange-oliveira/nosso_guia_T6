@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #263138;
+}
+
+header {
+    background-color: #013832;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px ;
+    padding-right: 80px;
+    /* padding-top: 24px; */
+    /* padding-bottom: 24px; */
+}
+
+header a {
+    color: #fff;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
+
+header img {
+    width: 100px;
+}
+
+
+/* Aqui começa a home da pagina */
+
+#home {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 100px 80px 128px 80px;
+    position: relative;
+    background-color: #DEDFDA;
+    margin: 30px ;
+    border-radius: 20px;
+    
+}
+
+#home img {
+    border-radius: 30px;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #387B5C;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+    font-size: 15px;
+}
+
+
+/* estilizando os botões */
+
+.botao {
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #387B5C;
+    padding: 16px 32px;
+}
+
+.botao-transparente {
+    background-color: transparent ;
+    color: #146A07;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+
+}
+
+
+/* aqui ficara a sessão de dicas para hospedagem em belém */
+
+#hotel {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+#hotel img {
+    border-radius: 30px;
+}
+
+#hotel li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+
+/* aqui ficara a sessão turismo com dicais de pontos turisticos */
+
+#turismo {
+    text-align: center;
+    padding: 64px 80px;
+    background-color:  #DEDFDA;
+    margin: 30px;
+    border-radius: 30px;
+   
+}
+
+#turismo img {
+    margin: 64px auto;
+    border-radius: 30px;
+}
+
+#farmacia .paragrafo {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+/* sessão duvidas e perguntas */ 
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+#duvidas img {
+    border: 1px solid #146A07; 
+    border-radius: 20px;
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #146A07;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+    width: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #146A07;
+    border-bottom: 1px solid #146A07;
+    border-left: 1px solid #146A07;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+     /* este trexo do codigo tem relação com o javascript da pagina */
+     padding:0 24px;
+     height: 0;
+     opacity: 0;
+     overflow: hidden;
+     transition: .2s;
+}
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
+
+
+/* estilização do footer rodapé */
+
+footer {
+    background-color:#013832;
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+    justify-content: space-between;
+}
+
+footer .paragrafo {
+    color: #fff;
+}
+
+
+footer img
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a   {
+    color:#fff;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+
+footer p a {
+    color:#fff;
+    text-decoration: none;
+}
+
+footer strong  {
+    color: #fff;
+}
+
+.cor {
+    color: #fff;
+}
+
+
+#copyright{
+    background-color: #263138;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+#copyright a {
+    color: #ff9a6c;
+}
